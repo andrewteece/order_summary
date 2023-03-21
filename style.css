@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-size: 1em;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+p {
+   margin-bottom: 0px; 
+}
+
+img {
+    margin: auto;
+}
+
+a {
+    margin: auto;
+}
+
+.card {
+    max-width: 450px;
+    height: 550px;
+}
+
+.order {
+
+}
+
+.plan {
+    display: grid;
+    grid-auto-flow: column;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+.text {
+    text-align: left;
+}
+
+.button {
+    margin: 80%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

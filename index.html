@@ -11,37 +11,53 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Order summary card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <h1>Order Summary</h1>
-    <p>
-      You can now listen to millions of songs, audiobooks, and podcasts on any
-      device anywhere you like!
-    </p>
-    <h2>Annual Plan</h2>
-    <p>$59.99/year</p> 
-    <a href="">Change </a>
-    <a href="">Proceed to Payment</a> 
-    <a href="">Cancel Order</a>
+    <div class="card">
+      <div class="img">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="girl listening to music"
+        />
+      </div>
+      <div class="order">
+        <h1>Order Summary</h1>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Andrew Teece</a>.
+      <div class="plan">
+        <img src="./images/icon-music.svg" alt="music note symbol" />
+        <div class="text">
+          <h2>Annual Plan</h2>
+          <p>$59.99/year</p>
+        </div>
+        <a href="#">Change </a>
+      </div>
+
+      <button class="button" type="button">
+        <a href="#">Proceed to Payment</a>
+      </button>
+      <div class="cancel"><a href="#">Cancel Order</a></div>
+      <div class="attribution">
+        <footer>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Andrew Teece</a>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
