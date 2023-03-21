@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-size: 1em;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 h2 {
@@ -9,10 +10,12 @@ h2 {
 
 p {
    margin-bottom: 0px; 
+   color: hsl(224, 23%, 55%);
 }
 
 img {
     margin: auto;
+    border-radius: 20px 20px 0px 0px;
 }
 
 a {
@@ -21,11 +24,14 @@ a {
 
 .card {
     max-width: 450px;
-    height: 550px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px hsl(225, 100%, 98%);
 }
 
 .order {
-
+    width: 80%;
+    margin: auto;
 }
 
 .plan {
@@ -34,20 +40,46 @@ a {
     height: 100px;
     width: 80%;
     margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
 }
 
 .text {
     text-align: left;
 }
 
+.text a {
+    font-weight: 700;
+}
+
 .button {
-    margin: 80%;
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 5px 15px hsl(224, 23%, 55%);
+}
+
+.button a {
+    color: hsl(225, 100%, 94%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    margin-top: 20px;
+    font-weight: 700;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 20px;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+    
   }
